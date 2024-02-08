@@ -65,9 +65,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-       <p className="text-lg md:text-xl font-semibold leading-relaxed text-gray-800  px-6 py-4 rounded-xl  transition duration-300 ease-in-out bg-transparent">
-  Hello there! I'm <span className="text-indigo-600">Serhan Asad</span> a Georgia Tech Computer Science student. I'm passionate about AI for materials discovery, web development, and data analytics, committed to innovation and user-focused solutions.
+       <p className="text-lg md:text-xl font-semibold leading-relaxed text-gray-800 px-6 py-4 rounded-xl transition duration-300 ease-in-out bg-transparent dark:text-white ">
+  Hello there! I'm <span className="text-orange-500 dark:text-orange-500  dark:drop-shadow-2xl">Serhan Asad</span>, a Georgia Tech Computer Science student. I'm passionate about AI for materials discovery, web development, and data analytics, committed to innovation and user-focused solutions.
 </p>
+
 
 
 
