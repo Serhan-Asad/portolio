@@ -66,7 +66,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
        <p className="text-lg md:text-xl font-semibold leading-relaxed text-gray-800 px-6 py-4 rounded-xl transition duration-300 ease-in-out bg-transparent dark:text-white ">
-  Hello there! I'm <span className="text-orange-500 dark:text-orange-500  dark:drop-shadow-2xl">Serhan Asad</span>, a Georgia Tech Computer Science student. I'm passionate about AI for materials discovery, web development, and data analytics, committed to innovation and user-focused solutions.
+  Hello there! I'm <span className="text-purple-500 dark:text-orange-500  dark:drop-shadow-2xl">Serhan Asad</span>, a Georgia Tech Computer Science student. I'm passionate about AI for materials discovery, web development, and data analytics, committed to innovation and user-focused solutions.
 </p>
 
 
@@ -97,7 +97,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 mr-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/Resume_Serhan.pdf"
+          href="/serhan_resume.pdf"
           download
         >
           Download CV{" "}

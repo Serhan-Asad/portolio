@@ -1,10 +1,12 @@
 import React from "react";
 import { MdLeaderboard } from "react-icons/md";
-import { FaReact } from "react-icons/fa";
+import { FaChalkboardTeacher, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import thread from "@/public/thread.png";
 import hurricane from "@/public/hurricane.png"
 import face from "@/public/face.png"
+import menace from "@/public/menace.png"
+import YOLO from "@/public/YOLO.png"
 import { IoBriefcaseOutline } from "react-icons/io5";
 import { LiaToolsSolid } from "react-icons/lia";
 import { MdOutlineLeaderboard } from "react-icons/md";
@@ -72,16 +74,40 @@ export const experiencesData = [
   {
     title: "Undergraduate AI Researcher",
     location: "Atlanta, GA",
-    description: "In my current research role, I've applied graph neural networks to cut materials discovery times by 40%, developed algorithms for precise atomic design, and engineered a big data-integrated testing platform.",
+    description: "Leveraged GNNs (SchNet, CGCNN) to predict material properties from atomic structures with high accuracy (0.129 test error on QM9). Fine-tuned LLMs (LLaMA, Gemma, Mistral) on crystal data (CIF, Z-matrix) to generate novel material structures using efficient training methods.",
     icon: React.createElement(FaReact),
     date: "August 2023 - Present",  
   },
+  {
+    title: "Undergraduate TA – Computer Systems & Networks",
+    location: "Atlanta, GA",
+    description: "Supporting over 150 students in topics like Multithreading, Virtual Memory, OSI Model, and ISA. Lead weekly labs on debugging C and Assembly with GDB, and collaborate with faculty to enhance course materials and student engagement.",
+    icon: React.createElement(FaChalkboardTeacher),
+    date: "January 2025 – Present",
+  }
+  
   
   
   
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Menace CLI",
+    description: "Built a intelligent terminal that assists you with system operations, execute commands, write code for you, do PR reviews for you and even write comments and read me files for you on your github. ",
+    tags: ["Go", "CLI", "LLM", "OpenAI",  "GPT-4", "Claude", "Bubble Tea", "LangChain", ],
+    imageUrl: menace,
+    url: "https://github.com/PramaYudhistira/menace",
+
+  },
+  {
+    title: "Football Player Detection and Analysis",
+    description: "Built an advanced computer vision system using YOLO for real-time player detection and tracking during football matches.",
+    tags: ["Python, Kaggle, Roboflow" ],
+    imageUrl: YOLO,
+    url: "https://github.com/Serhan-Asad/YOLO",
+
+  },
   {
     title: "Threads App",
     description: "In this project, I developed a full-stack MERN application leveraging Next.js 14, integrating React for the frontend, TypeScript for static type checking, and MongoDB for the database.",
@@ -101,6 +127,7 @@ export const projectsData = [
     description: "Led frontend development for a Georgia Tech project, crafting a web app that maps and analyzes hurricane damages using neural networks. Achievied a 40% faster damage cost estimation.",
     tags: ["React", "Figma", "Google API", "D3.js", "Data Visualization"],
     imageUrl: hurricane,
+    url: "https://github.com/Serhan-Asad/hurricane-cost-predictor",
   },
 
 ] as const;
@@ -120,11 +147,18 @@ export const skillsData = [
   "PostgreSQL",
   "Python",
   "Java",
-  "Tensor Flow",
-  "Framer Motion",
+  "TensorFlow",
   "C++",
   "C",
-  "Numpy",
+  "NumPy",
   "Figma",
+  "SQL",
+  "JavaFX",
+  "Entity Framework",
+  "Docker",
+  "AWS",
+  "Heroku",
+  "Vercel",
+  "GraphQL",
 
 ] as const;
